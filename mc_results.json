@@ -1,0 +1,141 @@
+{
+  "paper_id": "mining_rare_earth",
+  "config_file": "pipeline/mc_configs/mining_rare_earth.json",
+  "seed": 42,
+  "n_draws": 100000,
+  "n_channels": 6,
+  "correlation_rho": 0.3,
+  "private_payoff_B": 150.0,
+  "beta_w": {
+    "median": 11.15,
+    "mean": 11.37,
+    "std": 2.25,
+    "p1": 7.12,
+    "p5": 8.1,
+    "p95": 15.42,
+    "p99": 17.7,
+    "ci_90": [
+      8.1,
+      15.4
+    ],
+    "ci_99": [
+      7.1,
+      17.7
+    ],
+    "p_below_1": 0.0,
+    "p_below_1_pct": "0.0000%"
+  },
+  "impossibility_floor": {
+    "floor_value": 4.5,
+    "p_below_floor": 0.0,
+    "p_below_floor_pct": "0.0000%"
+  },
+  "welfare_cost": {
+    "total_median_B": 1672.1,
+    "total_mean_B": 1706.1,
+    "total_p5_B": 1214.9,
+    "total_p95_B": 2313.2
+  },
+  "pi_sa": {
+    "median_B": 1522.1,
+    "mean_B": 1556.1,
+    "p5_B": 1064.9,
+    "p95_B": 2163.2
+  },
+  "channel_statistics": {
+    "C1_environmental_degradation": {
+      "median": 998.6,
+      "mean": 1029.9,
+      "p5": 664.8,
+      "p95": 1497.7,
+      "std": 257.9
+    },
+    "C2_labor_health": {
+      "median": 79.9,
+      "mean": 82.5,
+      "p5": 53.3,
+      "p95": 120.4,
+      "std": 20.7
+    },
+    "C3_community_fpic": {
+      "median": 40.0,
+      "mean": 41.8,
+      "p5": 24.6,
+      "p95": 65.0,
+      "std": 12.6
+    },
+    "C4_perpetual_remediation": {
+      "median": 130.1,
+      "mean": 134.6,
+      "p5": 84.4,
+      "p95": 199.7,
+      "std": 35.9
+    },
+    "C5_geopolitical_concentration": {
+      "median": 149.7,
+      "mean": 157.1,
+      "p5": 90.2,
+      "p95": 249.0,
+      "std": 50.0
+    },
+    "C6_governance_resource_curse": {
+      "median": 249.7,
+      "mean": 260.3,
+      "p5": 156.4,
+      "p95": 400.0,
+      "std": 75.9
+    }
+  },
+  "sensitivity_matrix": [
+    {
+      "vsl_multiplier": 0.5,
+      "values": {
+        "dc_0pct": 7.67,
+        "dc_10pct": 6.9,
+        "dc_20pct": 6.13,
+        "dc_30pct": 5.37,
+        "dc_40pct": 4.6
+      }
+    },
+    {
+      "vsl_multiplier": 0.75,
+      "values": {
+        "dc_0pct": 9.33,
+        "dc_10pct": 8.4,
+        "dc_20pct": 7.47,
+        "dc_30pct": 6.53,
+        "dc_40pct": 5.6
+      }
+    },
+    {
+      "vsl_multiplier": 1.0,
+      "values": {
+        "dc_0pct": 11.0,
+        "dc_10pct": 9.9,
+        "dc_20pct": 8.8,
+        "dc_30pct": 7.7,
+        "dc_40pct": 6.6
+      }
+    },
+    {
+      "vsl_multiplier": 1.25,
+      "values": {
+        "dc_0pct": 12.67,
+        "dc_10pct": 11.4,
+        "dc_20pct": 10.13,
+        "dc_30pct": 8.87,
+        "dc_40pct": 7.6
+      }
+    },
+    {
+      "vsl_multiplier": 1.5,
+      "values": {
+        "dc_0pct": 14.33,
+        "dc_10pct": 12.9,
+        "dc_20pct": 11.47,
+        "dc_30pct": 10.03,
+        "dc_40pct": 8.6
+      }
+    }
+  ]
+}
